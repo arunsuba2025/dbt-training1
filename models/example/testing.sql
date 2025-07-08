@@ -1,0 +1,1 @@
+select 'Arun' as first_name , 'Rajamanickam' as last_name
