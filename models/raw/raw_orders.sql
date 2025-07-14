@@ -4,4 +4,6 @@
     )
 }}
 
-select * from raw.globalmart.orders
+select * from 
+-- raw.globalmart.orders
+{{ source('globalmart', 'orders') }}
